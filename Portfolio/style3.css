@@ -1,0 +1,55 @@
+*{
+    background-color: black;
+    font-family: 'poppins',sans-serif;
+    text-decoration: none;
+}
+.header
+{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 35px 12%;
+    background:black;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100; 
+}
+.logo
+{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+span{
+    color: orangered;
+}
+ .navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin:0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+ }
+ .navbar a:hover,
+ .navbar a:active{
+    color:orangered;
+    border-bottom: 3px solid orangered;
+ }
+img{
+    
+    padding-left: 30%;
+    padding-top: 8%;
+    width:40%;
+    height:40%;
+}
+p{
+    text-align: center;
+    font-size:150% ;
+    color:white;
+}
